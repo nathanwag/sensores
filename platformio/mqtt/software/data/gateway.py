@@ -1,8 +1,6 @@
 import serial
 import datetime
 import paho.mqtt.client as mqtt
-from pymongo.mongo_client import MongoClient
-from pymongo.server_api import ServerApi
 from database import get_database
 
 ser = serial.Serial('COM4', 115200, timeout=1)
